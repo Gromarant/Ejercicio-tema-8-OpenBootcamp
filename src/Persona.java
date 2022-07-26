@@ -4,24 +4,23 @@ public class Persona {
     private int telefono;
 
     public int getEdad() {
-        return Edad;
+        return edad;
     }
-    public void setEdad(int newEdad) {
-        this.edad = newEdad;
-    }
-
     public String getNombre() {
         return nombre;
+    }
+    public int getTelefono() {
+        return telefono;
+    }
+
+    public void setEdad(int newEdad) {
+        this.edad = newEdad;
     }
     public void setNombre(String newNombre) {
         this.nombre = newNombre;
     }
-
-    public int getTelefono() {
-        return Telefono;
-    }
     public void setTelefono(int newTelefono) {
-        this.Telefono = newTelefono;
+        this.telefono = newTelefono;
     }
 
 }
